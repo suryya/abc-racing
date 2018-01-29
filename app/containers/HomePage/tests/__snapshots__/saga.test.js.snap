@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getRepos Saga should call the newsLoadingError action if the response errors 1`] = `
+Object {
+  "@@redux-saga/IO": true,
+  "CALL": Object {
+    "args": Array [
+      "https://newsapi.org/v2/everything?q=horse%20racing&sortBy=popularity&apiKey=a736ce0525574cd79079d5a862e14283",
+    ],
+    "context": null,
+    "fn": [Function],
+  },
+}
+`;
