@@ -4,10 +4,11 @@
 
 1. Clone this repo using `git clone --depth=1 https://github.com/suryya/abc-racing.git`
 2. Move to the appropriate directory: `cd abc-racing`.<br />
-3. Run `npm run setup` in order to install dependencies and clean the git repo.<br />
-   *We auto-detect `yarn` for installing packages by default, if you wish to force `npm` usage do: `USE_YARN=false npm run setup`*<br />
-   *At this point you can run `npm start` to see the example app at `http://localhost:3000`.*
-4. Run `npm run clean` to delete the example app.
+3. Run `npm install` in order to install dependencies .<br />   
+4. Run `npm run test` to run test suite.
+5. Run `npm run test` to run test suite.
+6. Run `npm run build` to build the code for deployment.
+
 
 Now you're ready to rumble!
 
